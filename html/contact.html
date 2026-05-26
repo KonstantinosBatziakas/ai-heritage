@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — AI & Cultural Heritage</title>
+  <meta name="description" content="Get in touch.">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-title" data-lang="el">ΤΝ &amp; Πολιτιστική Κληρονομιά</span>
+        <span class="brand-title" data-lang="en">AI &amp; Cultural Heritage</span>
+        <span class="brand-sub">Exhibition · 2026</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links">
+        <li><a class="" href="../index.html"><span data-lang="el">Αρχική</span><span data-lang="en">Home</span></a></li>
+        <li><a class="" href="exhibits.html"><span data-lang="el">Εκθέματα</span><span data-lang="en">Exhibits</span></a></li>
+        <li><a class="" href="about.html"><span data-lang="el">Σχετικά</span><span data-lang="en">About</span></a></li>
+        <li><a class="active" href="contact.html"><span data-lang="el">Επικοινωνία</span><span data-lang="en">Contact</span></a></li>
+      </ul>
+      <div class="lang-switch">
+        <button data-set-lang="el">EL</button><span>/</span><button data-set-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+  <section class="section container">
+    <p class="eyebrow" data-lang="el">Επικοινωνία</p>
+    <p class="eyebrow" data-lang="en">Contact</p>
+    <h1 data-lang="el">Επικοινωνία</h1>
+    <h1 data-lang="en">Contact</h1>
+    <p data-lang="el" style="color:var(--ink-soft);max-width:540px">Για ερωτήσεις σχετικά με την έκθεση ή το μάθημα.</p>
+    <p data-lang="en" style="color:var(--ink-soft);max-width:540px">For questions about the exhibition or the course.</p>
+    <div class="contact-grid" style="margin-top:48px">
+      <form onsubmit="event.preventDefault(); this.querySelector('button').innerText='✓';">
+        <label>
+          <span data-lang="el">Όνομα</span><span data-lang="en">Name</span>
+          <input type="text" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" required>
+        </label>
+        <label>
+          <span data-lang="el">Μήνυμα</span><span data-lang="en">Message</span>
+          <textarea required></textarea>
+        </label>
+        <button type="submit" class="btn-solid">
+          <span data-lang="el">Αποστολή</span><span data-lang="en">Send</span>
+        </button>
+      </form>
+      <div class="contact-info">
+        <h2 data-lang="el">Πού θα μας βρείτε</h2>
+        <h2 data-lang="en">Where to find us</h2>
+        <p><i class="fa fa-map-marker"></i>
+          <span data-lang="el">Πανεπιστήμιο Αιγαίου, Μυτιλήνη, Λέσβος</span>
+          <span data-lang="en">University of the Aegean, Mytilene, Lesvos</span>
+        </p>
+        <p><i class="fa fa-envelope"></i> hello@ai-heritage.exhibit</p>
+        <div class="iframe-frame" style="margin-top:16px">
+          <iframe title="Google Map"
+            src="https://www.google.com/maps?q=University+of+the+Aegean+Mytilene&output=embed"
+            loading="lazy"></iframe>
+        </div>
+        <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61563765391709" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/konstas_223/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+        <a href="https://x.com/konstan81382254" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/@334Creations" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.flickr.com/photos/nelson-atkins/albums/" target="_blank" rel="noopener"><i class="fa fa-flickr"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3 data-lang="el">ΤΝ &amp; Πολιτιστική Κληρονομιά</h3>
+        <h3 data-lang="en">AI &amp; Cultural Heritage</h3>
+        <p data-lang="el">Μια συνθετική έκθεση στο μεταίχμιο τέχνης και αλγορίθμων.</p>
+        <p data-lang="en">A synthetic exhibition at the edge of art and algorithms.</p>
+      </div>
+      <div>
+        <p>ΠΛΡ 104 · 2026</p>
+        <p data-lang="el">Πανεπιστήμιο Αιγαίου, Μυτιλήνη</p>
+        <p data-lang="en">University of the Aegean, Mytilene</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a>
+        <a href="https://flickr.com" target="_blank" rel="noopener"><i class="fa fa-flickr"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">© <script>document.write(new Date().getFullYear())</script> · All rights reserved.</div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Siren Codex</title>
+  <meta name="description" content="Hall C: Sound.">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-title" data-lang="el">ΤΝ &amp; Πολιτιστική Κληρονομιά</span>
+        <span class="brand-title" data-lang="en">AI &amp; Cultural Heritage</span>
+        <span class="brand-sub">Exhibition · 2026</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links">
+        <li><a class="" href="../index.html"><span data-lang="el">Αρχική</span><span data-lang="en">Home</span></a></li>
+        <li><a class="active" href="exhibits.html"><span data-lang="el">Εκθέματα</span><span data-lang="en">Exhibits</span></a></li>
+        <li><a class="" href="about.html"><span data-lang="el">Σχετικά</span><span data-lang="en">About</span></a></li>
+        <li><a class="" href="contact.html"><span data-lang="el">Επικοινωνία</span><span data-lang="en">Contact</span></a></li>
+      </ul>
+      <div class="lang-switch">
+        <button data-set-lang="el">EL</button><span>/</span><button data-set-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container" style="padding:48px 24px">
+    <a href="exhibits.html" style="font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none">
+      <span data-lang="el">← Πίσω στα εκθέματα</span><span data-lang="en">← Back to exhibits</span>
+    </a>
+    <header style="margin-top:24px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:end" class="ex-header">
+      <div>
+        <p class="hall-tag" data-lang="el">Αίθουσα Γ · Ήχος</p>
+        <p class="hall-tag" data-lang="en">Hall C · Sound</p>
+        <h1 data-lang="el" style="font-size:clamp(36px,5vw,64px);margin-top:8px">Κώδικας των Σειρήνων</h1>
+        <h1 data-lang="en" style="font-size:clamp(36px,5vw,64px);margin-top:8px">The Siren Codex</h1>
+      </div>
+      <dl class="exhibit-meta">
+        <dt data-lang="el">Μέσο</dt><dt data-lang="en">Medium</dt>
+        <dd data-lang="el">Γενετικός ήχος + βίντεο</dd><dd data-lang="en">Generative audio + video</dd>
+        <dt data-lang="el">Έτος</dt><dt data-lang="en">Year</dt><dd>2026</dd>
+      </dl>
+    </header>
+
+    <div class="exhibit-main-image" style="margin-top:40px">
+      <img src="../images/siren.jpg" alt="The Siren Codex" class="responsive-img zoom-img" id="sirenImg" style="max-width:100%; height:auto; max-height:600px; display:block;">
+      <p style="font-style: italic; font-size: 0.85em; margin-top: 8px; color: var(--ink-soft);">
+        <span data-lang="el">💡 Κάντε κλικ στην εικόνα για μεγέθυνση</span>
+        <span data-lang="en">💡 Click on the image to zoom</span>
+      </p>
+    </div>
+
+    <div class="audio-container" style="margin: 32px 0; padding: 16px; background: var(--parchment-2); border: 1px solid var(--border); border-radius: 4px;">
+      <p style="font-weight: 500; margin-top: 0; margin-bottom: 12px; font-family: var(--font-display); font-size: 20px;">
+        <span data-lang="el">Αναπαραγωγή Έργου:</span>
+        <span data-lang="en">Audio Playback:</span>
+      </p>
+      <audio controls style="width: 100%;">
+  <source src="../sounds/seirinon_melos.mp3" type="audio/mpeg">
+  <span data-lang="el">Ο browser σας δεν υποστηρίζει το στοιχείο ήχου.</span>
+  <span data-lang="en">Your browser does not support the audio element.</span>
+</audio>
+    </div>
+
+    <div style="max-width:680px;margin-top:40px;font-size:18px;line-height:1.7">
+      <p data-lang="el">Το έργο εκτελείται σε βρόχο 30 δευτερολέπτων. Κάθε επανάληψη επανατροφοδοτεί το μοντέλο, οπότε η σύνθεση μετατοπίζεται αργά κατά τη διάρκεια της επίσκεψής σας.</p>
+      <p data-lang="en">The piece runs in a 30-second loop. Each iteration feeds the model back into itself, so the composition slowly shifts during your visit.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3 data-lang="el">ΤΝ &amp; Πολιτιστική Κληρονομιά</h3>
+        <h3 data-lang="en">AI &amp; Cultural Heritage</h3>
+        <p data-lang="el">Μια συνθετική έκθεση στο μεταίχμιο τέχνης και αλγορίθμων.</p>
+        <p data-lang="en">A synthetic exhibition at the edge of art and algorithms.</p>
+      </div>
+      <div>
+        <p>ΠΛΡ 104 · 2026</p>
+        <p data-lang="el">Πανεπιστήμιο Αιγαίου, Μυτιλήνη</p>
+        <p data-lang="en">University of the Aegean, Mytilene</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/profile.php?id=61563765391709" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/konstas_223/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+        <a href="https://x.com/konstan81382254" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/@334Creations" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.flickr.com/photos/nelson-atkins/albums/" target="_blank" rel="noopener"><i class="fa fa-flickr"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">© <script>document.write(new Date().getFullYear())</script> · All rights reserved.</div>
+  </footer>
+
+  <div id="sirenModal" class="image-modal" onclick="this.style.display='none'">
+    <img class="image-modal-content" id="sirenModalTarget">
+  </div>
+
+  <script>
+    const imgSiren = document.getElementById('sirenImg');
+    const modalSiren = document.getElementById('sirenModal');
+    const modalImgSiren = document.getElementById('sirenModalTarget');
+
+    if (imgSiren && modalSiren && modalImgSiren) {
+      imgSiren.onclick = function() {
+        modalSiren.style.display = "block";
+        modalImgSiren.src = this.src;
+      }
+    }
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
