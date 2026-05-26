@@ -94,6 +94,7 @@
       <span data-lang="en">The three halls</span>
     </div>
     <div class="halls">
+
       <a class="hall-card" href="html/exhibit-aphrodite.html">
         <div class="card-image-wrapper">
           <img src="images/aphrodite.jpg" alt="Aphrodite Reborn" class="hall-img">
@@ -118,23 +119,27 @@
         <p data-lang="en">The battle of San Romano rewritten as an abstract colour field.</p>
       </a>
 
-      <a class="hall-card" href="html/exhibit-siren.html">
-        <div class="card-image-wrapper">
-          <img src="images/siren.jpg" alt="The Siren Codex" class="hall-img">
-        </div>
-        <p class="hall-tag" data-lang="el">Αίθουσα Γ · Ήχος</p>
-        <p class="hall-tag" data-lang="en">Hall C · Sound</p>
-        <h3 data-lang="el">Κώδικας των Σειρήνων</h3>
-        <h3 data-lang="en">The Siren Codex</h3>
-        <p data-lang="el">Μια σύνθεση φωνής εμπνευσμένη από βυζαντινούς ύμνους.</p>
-        <p data-lang="en">A vocal composition inspired by Byzantine hymns.</p>
-        <div class="audio-player-container" onclick="event.stopPropagation();">
+      <!-- Siren: το audio είναι ΕΞΩ από το <a> -->
+      <div class="hall-card-wrapper">
+        <a class="hall-card" href="html/exhibit-siren.html">
+          <div class="card-image-wrapper">
+            <img src="images/siren.jpg" alt="The Siren Codex" class="hall-img">
+          </div>
+          <p class="hall-tag" data-lang="el">Αίθουσα Γ · Ήχος</p>
+          <p class="hall-tag" data-lang="en">Hall C · Sound</p>
+          <h3 data-lang="el">Κώδικας των Σειρήνων</h3>
+          <h3 data-lang="en">The Siren Codex</h3>
+          <p data-lang="el">Μια σύνθεση φωνής εμπνευσμένη από βυζαντινούς ύμνους.</p>
+          <p data-lang="en">A vocal composition inspired by Byzantine hymns.</p>
+        </a>
+        <div class="audio-player-container">
           <audio controls style="width: 100%; margin-top: 15px;">
             <source src="sounds/seirinon_melos.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
         </div>
-      </a>
+      </div>
+
     </div>
   </section>
 
